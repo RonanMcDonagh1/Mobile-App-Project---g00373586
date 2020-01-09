@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hockeyApp.HockeyBasics"
+             BackgroundImage="icePic.jpg"
+             Title="Hockey Basics">
+    
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Barebone rules"
+             HorizontalOptions="Center"
+             VerticalOptions="Start"
+             FontSize="Large"
+             TextColor="Black"
+             Margin="20"
+             TextDecorations="Underline" />
+            
+             <Label
+             Text="Ice Hockey is a fast paced, full contact sport played on an ice rink between two teams of six skaters, who attempt to drive a small rubber puck into the opposing goal with sticks, the team with more goals wins. A game lasts for three 20 minute periods and if the teams are level they go into overtime where the next goal wins, if they are tied after 20 minutes of overtime, there is a penalty shootout."
+             HorizontalOptions="Start"
+             VerticalOptions="Start"
+             FontSize="Medium"
+             TextColor="Black"
+             Margin="10"/>
+
+            <Label
+            Text="There is always 6 players on the ice at a time, unless there is a penalty for either or both teams, these players are split between one goalie and 5 other players, known as skaters, these skaters are further split between 3 forwards and 2 defencemen."
+             HorizontalOptions="Start"
+             VerticalOptions="Start"
+             FontSize="Medium"
+             TextColor="Black"
+             Margin="10"/>
+
+            <Label
+            Text="The best way to get a grasp on whats happening in the sport, like most things, is to keep watching until you're familliar with the way the game flows and how players and officials interact with one another"
+             HorizontalOptions="Start"
+             VerticalOptions="Start"
+             FontSize="Medium"
+             TextColor="Black"
+             Margin="10"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

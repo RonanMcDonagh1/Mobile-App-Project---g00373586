@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:hockeyApp"
+             x:Class="hockeyApp.MainPage"
+              Title="Home">
+
+    <ContentPage BackgroundImage="icePic.jpg">
+        <StackLayout>
+            <Label Text="Welcome to the premier app to learn about ice hockey!" 
+                   VerticalTextAlignment="Center"
+           HorizontalOptions="Start"
+           VerticalOptions="Start"
+           FontSize="Large"
+           TextColor="Black"
+           Margin="20"/>
+
+            <Label Text="In this app you will hopefully get a better understanding of the rules of hockey as well as a good grasp on certain terms you might hear that could otherwise cause confusion, the best way to understand the game though is to keep watching!"
+           HorizontalOptions="Start"
+           VerticalOptions="Center"
+           FontSize="Medium"
+           TextColor="Black"
+           Margin="10" />
+
+            <Label Text="How can I watch hockey?" 
+             VerticalTextAlignment="Center"
+           HorizontalOptions="Start"
+           VerticalOptions="Start"
+           FontSize="Large"
+           TextColor="Black"
+           Margin="20"
+           TextDecorations="Underline"/>
+
+
+            <Label Text="There are many platforms that allow you to follow games, games are televised on a variety of channels depending on the teams playing and every game in the NHL has a radio feed on the team's websites for example, or you can opt into subscription services to watch games on the go online or on your phone! "
+           HorizontalOptions="Start"
+           VerticalOptions="Center"
+           FontSize="Medium"
+           TextColor="Black"
+           Margin="10" />
+
+
+
+        </StackLayout>
+    </ContentPage>
+</CarouselPage>

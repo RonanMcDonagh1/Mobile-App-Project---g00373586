@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hockeyApp.Penalties"
+             Title="Penalty Times"
+             BackgroundImage="icePic.jpg">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Here is a list of the times for each penalty"
+             HorizontalOptions="Center"
+             VerticalOptions="Start"
+             FontSize="Large"
+             TextColor="Black"
+             Margin="20"
+             TextDecorations="Underline" />
+
+            <Image Source="hockeyPenalties.PNG"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+             Margin="20"/>
+
+            <Label
+            Text="Some of these are very self explanitory (elbowing, kneeing, too many men on the ice ect.) but some might require a bit more explanation, consult the useful terms page for a bit more information"
+             HorizontalOptions="Start"
+             VerticalOptions="Start"
+             FontSize="Medium"
+             TextColor="Black"
+             Margin="10"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

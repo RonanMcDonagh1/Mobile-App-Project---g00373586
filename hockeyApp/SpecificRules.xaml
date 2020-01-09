@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hockeyApp.SpecificRules"
+             BackgroundImage="icePic.jpg"
+             Title="Penalty types">
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="A bit of a more in depth look at various penalties"
+             HorizontalOptions="Center"
+             VerticalOptions="Start"
+             FontSize="Large"
+             TextColor="Black"
+             Margin="20"
+             TextDecorations="Underline" />
+
+                <Label
+             Text="Hockey does not have a yellow card then red card system like other sports, instead using a system where the team which commits the foul is to play a with less players than they would otherwise be allowed and the player has too sit in a penalty box away from the coaches and rest of the team."
+             HorizontalOptions="Start"
+             VerticalOptions="Start"
+             FontSize="Medium"
+             TextColor="Black"
+             Margin="10"/>
+
+                <Label
+             Text="A minor penalty is the least severe type of infraction. It results in the loss of a player for two-minutes, If the other team scores before the penalty is over, the player is released from the penalty box early."
+             HorizontalOptions="Start"
+             VerticalOptions="Start"
+             FontSize="Medium"
+             TextColor="Black"
+             Margin="10"/>
+
+                <Label
+             Text="A major penalty is a severe infraction that warrants a stiffer five-minute penalty. During major ice hockey penalties, the offending player must sit in the penalty box the entire five minutes, no matter how many times the opposing team scores."
+             HorizontalOptions="Start"
+             VerticalOptions="Start"
+             FontSize="Medium"
+             TextColor="Black"
+             Margin="10"/>
+
+                <Label
+             Text="Then after that there is a misconduct penalty which results in a player being forced to sit in the penalty box for 10 minutes. These are penalties that are more severe than a major penalty, but still don't warrant an ejection from the game in the eyes of the officials."
+             HorizontalOptions="Start"
+             VerticalOptions="Start"
+             FontSize="Medium"
+             TextColor="Black"
+             Margin="10"/>
+
+                <Label
+             Text="If the referees think that a player has really crossed the line and deserves an even higher punishment they can eject the player from the game as well as give a penalty which has to be served by a teammate of the player which was ejected"
+             HorizontalOptions="Start"
+             VerticalOptions="Start"
+             FontSize="Medium"
+             TextColor="Black"
+             Margin="10"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

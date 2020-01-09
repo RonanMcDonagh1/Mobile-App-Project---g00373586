@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hockeyApp.UsefulTerms"
+             Title="Useful Terms"
+             BackgroundImage="icePic.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Label Text="Here is a list of terms you might hear watching a game and their defintions"
+             HorizontalOptions="Center"
+             VerticalOptions="Start"
+             FontSize="Large"
+             TextColor="Black"
+             Margin="20"
+             TextDecorations="Underline" />
+                
+                
+                <Label Text="Assist - a pass of the hockey puck that leads directly to another player scoring a goal."
+                 HorizontalOptions="Start"
+                 VerticalOptions="Start"
+                 FontSize="Medium"
+                 TextColor="Black"
+                 Margin="10"/>
+
+                <Label Text="Blue line - Lines on either side of the red line that divide the rink into zones. These lines govern the offside rule and define the offensive, defensive, and neutral zones. "
+                 HorizontalOptions="Start"
+                 VerticalOptions="Start"
+                 FontSize="Medium"
+                 TextColor="Black"
+                 Margin="10"/>
+
+                <Label Text="Boarding - a penalty called when a hockey player violently knocks an opposing player into the barriers on the rink."
+                 HorizontalOptions="Start"
+                 VerticalOptions="Start"
+                 FontSize="Medium"
+                 TextColor="Black"
+                 Margin="10"/>
+
+                <Label Text="Checking - keeping an opposing hockey player from advancing to where they want to. "
+                 HorizontalOptions="Start"
+                 VerticalOptions="Start"
+                 FontSize="Medium"
+                 TextColor="Black"
+                 Margin="10"/>
+
+                <Label Text="Crease - area right in front of the goal where the goaltender is not to be interfered with or a penalty will be called. "
+                 HorizontalOptions="Start"
+                 VerticalOptions="Start"
+                 FontSize="Medium"
+                 TextColor="Black"
+                 Margin="10"/>
+
+                <Label Text="Face-off - this is how hockey play begins. Two players stand inside the face-off circle, a referee drops the puck between them, and they each try to pass the puck to a team mate. "
+                 HorizontalOptions="Start"
+                 VerticalOptions="Start"
+                 FontSize="Medium"
+                 TextColor="Black"
+                 Margin="10"/>
+
+                <Label Text="Forward - hockey player whose primary responsibility is offense and scoring goals. There are usually three forwards per hockey team on the ice. "
+                 HorizontalOptions="Start"
+                 VerticalOptions="Start"
+                 FontSize="Medium"
+                 TextColor="Black"
+                 Margin="10"/>
+
+                <Label Text="Defenseman - there are two hockey players whose main job is defense and playing back near their own goal. "
+                 HorizontalOptions="Start"
+                 VerticalOptions="Start"
+                 FontSize="Medium"
+                 TextColor="Black"
+                 Margin="10"/>
+
+                <Label Text="Goaltender - the hockey player who stands in front of the goal an whose only job is to prevent the other team from scoring. The goalie wears extra pads and a mask as high speed shots are aimed at them throughout the game. "
+                 HorizontalOptions="Start"
+                 VerticalOptions="Start"
+                 FontSize="Medium"
+                 TextColor="Black"
+                 Margin="10"/>
+
+                <Label Text="Icing - a violation that occurs when a hockey player shoots the puck across both the red line and the opposing team's goal line without the puck going into the net. "
+                 HorizontalOptions="Start"
+                 VerticalOptions="Start"
+                 FontSize="Medium"
+                 TextColor="Black"
+                 Margin="10"/>
+
+                <Label Text="Penalty shot - a penalty awarded when a hockey team loses an obvious scoring chance because of a foul committed by the opposing team. One hockey player gets to take a shot at goal with only the goaltender playing defense. "
+                 HorizontalOptions="Start"
+                 VerticalOptions="Start"
+                 FontSize="Medium"
+                 TextColor="Black"
+                 Margin="10"/>
+
+                <Label Text="Power play - occurs when the other team commits a penalty and one of their hockey players has to go to the penalty box. One team now has more players on the ice. "
+                 HorizontalOptions="Start"
+                 VerticalOptions="Start"
+                 FontSize="Medium"
+                 TextColor="Black"
+                 Margin="10"/>
+
+                <Label Text="Penalty Kill - the period from which a team becomes short-handed due to one or more penalties until they are at full or even strength with the opposing team. Also refers to the defensive activity during such a period."
+                 HorizontalOptions="Start"
+                 VerticalOptions="Start"
+                 FontSize="Medium"
+                 TextColor="Black"
+                 Margin="10"/>
+
+                <Label Text="Red line - divides the rink down the middle. It is used to judge icing and offside pass calls. "
+                 HorizontalOptions="Start"
+                 VerticalOptions="Start"
+                 FontSize="Medium"
+                 TextColor="Black"
+                 Margin="10"/>
+
+                <Label Text="Cross Checking - where a player checks an opponent by using the shaft of his or her stick with both hands."
+                 HorizontalOptions="Start"
+                 VerticalOptions="Start"
+                 FontSize="Medium"
+                 TextColor="Black"
+                 Margin="10"/>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
